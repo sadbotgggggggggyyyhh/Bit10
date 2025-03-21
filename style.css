@@ -61,7 +61,7 @@ header .navLinks{
 .navLinks li .btnCon:hover{
   background-color: transparent;
   color: white;
-  border: 1px solid orange;
+  border: 2px solid orange;
 }
 header .navMenu{
   display: none;
@@ -128,7 +128,7 @@ header .navMenu div{
 }
 .info button:hover{
   color: white;
-  border: 1px solid orange;
+  border: 2px solid orange;
   background-color: transparent;
 }
 
@@ -190,7 +190,7 @@ header .navMenu div{
   .navLinks li a{
     color: rgb(10, 5, 30);
   }
-  
+
   header .navMenu{
     display: block;
     cursor: pointer;
