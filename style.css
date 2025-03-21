@@ -47,12 +47,21 @@ header .navLinks{
   color: rgb(144, 144, 144);
   text-decoration: none;
 }
+.navLinks li a:hover{
+  color: orange;
+}
 .navLinks li .btnCon{
   padding: 8px 30px;
   background-color: orange;
   border-radius: 10px;
   color: rgb(10, 5, 30);
   font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+.navLinks li .btnCon:hover{
+  background-color: transparent;
+  color: white;
+  border: 2px solid orange;
 }
 header .navMenu{
   display: none;
@@ -115,6 +124,12 @@ header .navMenu div{
   font-weight: 500;
   margin-top: 30px;
   font-size: 20px;
+  transition: 0.5s ease-in-out;
+}
+.info button:hover{
+  color: white;
+  border: 2px solid orange;
+  background-color: transparent;
 }
 
 .content .short-info{
@@ -175,6 +190,7 @@ header .navMenu div{
   .navLinks li a{
     color: rgb(10, 5, 30);
   }
+
   header .navMenu{
     display: block;
     cursor: pointer;
